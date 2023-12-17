@@ -21,8 +21,7 @@ go run main.go
 Testing the API
 Postman to send HTTP requests to the endpoints.
 
-License
-This project is licensed under the MIT License.
+
 
 
 
