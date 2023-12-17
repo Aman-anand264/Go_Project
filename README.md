@@ -7,10 +7,10 @@ List Books
 curl http://localhost:your_port/books/list
 
 Update a Book
-curl -X PUT -H "Content-Type: application/json" -d '{"title": "New Title", "author": "New Author"}' http://localhost:your_port/books/list/{ISBN}
+curl -X PUT -H "Content-Type: application/json" -d '{"title": "New Title", "author": "New Author"}' http://localhost:your_port/books/list/123456
 
 Remove a Book
-curl -X DELETE http://localhost:your_port/book/remove/{ISBN}
+curl -X DELETE http://localhost:your_port/book/remove/123456
 
 Running the Project
 git clone https://github.com/your-username/bookstore-api.git
